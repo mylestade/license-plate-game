@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-#statesForm label {
-    display: block;
-    margin: 5px 0;
+#stateDropdown {
+    margin-top: 20px;
+    padding: 10px;
 }

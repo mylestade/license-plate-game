@@ -8,11 +8,14 @@
 </head>
 <body>
     <h1>License Plate Game</h1>
-    <form id="statesForm">
-        <label><input type="checkbox" class="state-checkbox" onchange="updateCount()"> Alabama</label><br>
-        <!-- Repeat for all states -->
-    </form>
+    <select id="stateDropdown" onchange="updateCount()">
+        <option value="" disabled selected>Select a state</option>
+        <!-- Add more options for each state -->
+    </select>
     <p id="count">States Found: 0</p>
+    <p id="foundStatesList">States Found:</p>
+
+
     <script src="script.js"></script>
 </body>
 </html>
